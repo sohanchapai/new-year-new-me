@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url('images/banner/banner2.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.div{
+    text-align: right;
+    padding-right: 50px;
+   margin: 0 200px;
+    
+    
+
+}
+.header-title{
+        font-size: 50px;
+        
+}
+    
+
+.button-contact{
+    background-color: tomato;
+    border: 0;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius:5px;
+}
+/* body style  */
+.second-banner{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0 200px;
+    
+    
+}
+.second-banner-paragrap{
+    /* text-align: right; */
+
+}
+
+/* main section */
+main{
+    max-width: 1141px;
+    margin: 0 auto;
+}
+/* my plans part  */
+.my-plans{
+    margin-top: 130px;
+    background: #ffffff ;
+    border-radius: 10px;
+    padding: 50px 10px;
+}
+.my-plans-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.my-plans-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-now{
+    background-image: url('images/watch.png');
+    height: auto;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+
+    
+}
+.call-now img{
+    width: 100%;
+    display: block;
+}
+.call-now-title{
+            position: absolute;
+        top: 30px;
+        left: 20px;
+        font-size: 30px;
+}
+.call-now-button{
+    position: absolute;
+        top: 100px;
+        left: 50px;
+
+        background-color:white;
+    border: 0;
+    color: tomato;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius:5px;
+}
+call-now-button-style{
+    color: tomato;
+    
+}
+.bottom{
+    
+    margin: 0 auto;
+    background-color: black;
+    padding: 50px 100px;
+    margin-top: 60px;
+    /* gap: 100px; */
+    
+}
+.my-plans-info-bottom{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    background: cover;
+    
+}
+.submit-button{
+    background-color:white;
+    border: 0;
+    color: tomato;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius:5px;}
+
+.cottom-text-color{
+    color: #ffffff;
+}
+.future{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.bottom-margin{
+    margin-top: 20px;
+}
+.subscribe{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+input{
+    height: 40px;
+    width: 250px;
+    background-color: black;
+    color: #ffffff;
+}
+
